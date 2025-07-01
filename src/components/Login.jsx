@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
-import styles from "../Button.module.css";
+import Button from "@mui/material/Button";
 
 //crie um arquivo chamado Login.jsx
 const Login = () => {
   const navigate = useNavigate();
   return (
-    <button className={styles.botao} onClick={() => navigate("/home")}>
+    <Button variant="text" onClick={() => navigate("/home")}>
       Clique para se logar
-    </button>
+    </Button>
   );
 };
 
