@@ -1,6 +1,7 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  :root {
+    font-weight: 400;
+  }
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -10,6 +11,18 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* ocupa a altura total da tela */
 }
 
 a {
