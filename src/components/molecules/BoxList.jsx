@@ -1,5 +1,5 @@
 import React from "react";
-import StyledBox from "../atoms/StyledBox.jsx";
+
 import Grid from "@mui/material/Grid";
 import ActionAreaCard from "../atoms/ActionAreaCard.jsx";
 
